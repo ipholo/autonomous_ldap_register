@@ -1,6 +1,6 @@
 import mysql.connector
 import keyring
-from autonomous_ldap_register.access_information_module import DatabaseConfiguration
+from access_information_module import DatabaseConfiguration
 
 
 SERVICE_ID = 'LDAP USERS STORAGE'

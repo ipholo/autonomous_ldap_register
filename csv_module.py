@@ -1,5 +1,5 @@
 import csv
-from autonomous_ldap_register.ldap_module import add_ldap_user
+from ldap_module import add_ldap_user
 
 
 # Function to read a csv file with the format:

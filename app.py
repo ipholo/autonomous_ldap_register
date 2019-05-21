@@ -1,6 +1,6 @@
 import os
 from flask import Flask, request, render_template, url_for, redirect
-from autonomous_ldap_register.csv_module import read_csv_file
+from csv_module import read_csv_file
 
 app = Flask(__name__)
 

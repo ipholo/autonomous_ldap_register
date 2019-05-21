@@ -1,5 +1,5 @@
-from autonomous_ldap_register.access_information_module import LdapServerConfiguration
-from autonomous_ldap_register.email_sender_module import send_ldap_user_email
+from access_information_module import LdapServerConfiguration
+from email_sender_module import send_ldap_user_email
 from ldap3 import Server, Connection, ALL
 from random import randint
 

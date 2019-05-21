@@ -1,5 +1,5 @@
 import smtplib
-from autonomous_ldap_register.access_information_module import EmailServerConfiguration, LdapServerConfiguration
+from access_information_module import EmailServerConfiguration, LdapServerConfiguration
 
 
 # Send an email with the details of the new created server.
