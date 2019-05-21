@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>CSV File Upload</title>
+  </head>
+  <body>
+    Upload your CSV file of the form:<br>
+    first name, last name, mail<br>
+    <form action="/handleUpload" method="post" enctype="multipart/form-data">
+      Choose the file:
+      <input type="file" name="csv-file"/><BR>
+      <input type="submit" value="Upload"/>
+    </form>
+  </body>
+</html>
